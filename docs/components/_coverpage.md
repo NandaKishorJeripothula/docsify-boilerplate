@@ -1,4 +1,4 @@
-# Doscify Boilerplate
+# Docsify Boilerplate
 
 <img width="150" src="static/media/logo.svg" alt="app logo" />
 

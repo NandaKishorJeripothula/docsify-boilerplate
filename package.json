@@ -1,7 +1,7 @@
 {
   "name": "docsify-boilerplate",
   "version": "0.0.1",
-  "description": "Description yet to be added",
+  "description": "Get the right tool to get started on writing documentation for your app/ service or your own blog.",
   "directories": {
     "doc": "docs"
   },

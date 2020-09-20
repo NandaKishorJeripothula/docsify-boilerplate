@@ -65,3 +65,69 @@ It uses a dictionary of over 200 Latin words,
 This is page cover
 
 ![Sample Image](https://picsum.photos/200/300)
+
+### Mermaid Support
+
+?> Flow with state diagram
+
+```mermaid
+stateDiagram
+[*] --> Still
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> Crash
+Crash --> [*]
+```
+
+```mermaid
+graph LR
+    A --- B
+    B-->C[fa:fa-ban forbidden]
+    B-->D(fa:fa-spinner);
+```
+
+?> Group diagrams
+
+```mermaid
+ graph TD;
+  A(Start)-->B(Do some stuff);
+  B(Take me to github)-->C(do more);
+  click B "http://www.github.com" "This is a link"
+```
+
+### Overview of the IPO Process
+
+This guide will break down the steps involved in the process, which can take anywhere from six months to over a year to complete.
+
+Below are the steps a company must undertake to go public via an IPO process:
+
+?> Time Line Support _Second one is link_
+
+```mermaid
+graph TD;
+A(Select a bank)-->B(Due diligence and filings );
+B(Due diligence and filings)-->C(Pricing);
+C(Pricing)-->D(Stabilization);
+C(Pricing)-->E(Transition);
+D(Stabilization)-->E(Transition);
+click B "http://www.github.com"
+
+```
+
+!> Internal Routing example
+
+```mermaid
+graph TD;
+A(What is Lorem Ipsum)-->B(Why do we use it);
+B(Why do we use it)-->C(Pricing);
+C(Where Does it come from)-->D(Where can I get some);
+C(Where Does it come from)-->E(Important Block);
+D(Where can I get some)-->E(Important Block);
+
+click A "/#/pages/sample-document?id=what-is-lorem-ipsum"
+click B "/#/pages/sample-document?id=why-do-we-use-it"
+click C "/#/pages/sample-document?id=where-does-it-come-from"
+click D "/#/pages/sample-document?id=where-can-i-get-some"
+click E "/#/pages/usage"
+```

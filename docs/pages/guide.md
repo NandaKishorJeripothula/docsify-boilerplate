@@ -6,3 +6,4 @@
 
 1. [Components / Helpers](https://docsify.js.org/#/helpers)
 2. [Deployment](https://docsify.js.org/#/deploy)
+3. [Graph Support](https://mermaid-js.github.io/mermaid)

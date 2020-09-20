@@ -6,12 +6,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "start": "docsify serve docs",
-    "publish": "gh-pages -d docs"
+    "start": "docsify serve docs"
   },
   "author": "Nanda Kishor Jeripothula",
   "devDependencies": {
-    "docsify-cli": "^4.3.0",
-    "gh-pages": "2.1.1"
+    "docsify-cli": "^4.3.0"
   }
 }

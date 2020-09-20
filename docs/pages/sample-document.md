@@ -125,9 +125,9 @@ C(Where Does it come from)-->D(Where can I get some);
 C(Where Does it come from)-->E(Important Block);
 D(Where can I get some)-->E(Important Block);
 
-click A "/#/pages/sample-document?id=what-is-lorem-ipsum"
-click B "/#/pages/sample-document?id=why-do-we-use-it"
-click C "/#/pages/sample-document?id=where-does-it-come-from"
-click D "/#/pages/sample-document?id=where-can-i-get-some"
-click E "/#/pages/usage"
+click A "/docsify-boilerplate/#/pages/sample-document?id=what-is-lorem-ipsum"
+click B "/docsify-boilerplate/#/pages/sample-document?id=why-do-we-use-it"
+click C "/docsify-boilerplate/#/pages/sample-document?id=where-does-it-come-from"
+click D "/docsify-boilerplate/#/pages/sample-document?id=where-can-i-get-some"
+click E "/docsify-boilerplate/#/pages/usage"
 ```

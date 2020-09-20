@@ -1,0 +1,17 @@
+{
+  "name": "docsify-boilerplate",
+  "version": "0.0.1",
+  "description": "Description yet to be added",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "docsify serve docs",
+    "publish": "gh-pages -d docs"
+  },
+  "author": "Nanda Kishor Jeripothula",
+  "devDependencies": {
+    "docsify-cli": "^4.3.0",
+    "gh-pages": "2.1.1"
+  }
+}

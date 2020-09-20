@@ -1,11 +1,13 @@
-- [Home](/#unicron-homepage)
-- [Features](features.md)
+<!-- for smooth navigation please use first heading in readme.md in cebab case here as an id for home-->
+
+- [Home](/#docsify-boilerplate-homepage)
+- [Features](pages/features.md)
 - Setup
-    - [Installation](installation.md)
-    - [Configure crontab](cron.md)
-    - [Configure tasks](tasks.md)
+  - [Installation](pages/installation.md)
+  - [Configure crontab](pages/cron.md)
+  - [Configure tasks](pages/tasks.md)
 - Run
-    - [Check mail](mail.md)
-    - [Usage](usage.md)
-- [Development](development.md)
-- [License](license.md)
+  - [Check mail](pages/mail.md)
+  - [Usage](pages/usage.md)
+- [Development](pages/development.md)
+- [License](pages/license.md)

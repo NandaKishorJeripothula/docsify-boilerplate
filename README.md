@@ -21,4 +21,4 @@ Get the right tool to get started on writing documentation for your app/ service
 
 ---
 
-Made in :heart: with Doscify
+Made in :heart: with Docsify
